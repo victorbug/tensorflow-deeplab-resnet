@@ -1,4 +1,5 @@
 *.ckpt
+*.pyc
 snapshots/
 output/
 VOCdevkit/VOC2012/Annotations/
