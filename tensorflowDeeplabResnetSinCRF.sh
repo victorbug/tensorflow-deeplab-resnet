@@ -43,6 +43,6 @@ python train.py --random-mirror --random-scale
 
 
 echo -e "${RED}Tienes que descargar los checkpoint desde el link del drive de google (https://drive.google.com/drive/folders/0B_rootXHuswsZ0E4Mjh1ZU5xZVU?resourcekey=0-9Ui2e1br1d6jymsI6UdGUQ) que esta en el repositorio de drSleep (https://github.com/DrSleep/tensorflow-deeplab-resnet)${NC}"
-echo -e "${RED}Tienes que cambiar el nombre de la carpeta VOCdevkit/VOC2012/SegmentationClass a VOCdevkit/VOC2012/SegmentationClassAug${NC}"
+echo -e "${RED}Tienes que bajar el VOCdevkit (desde: http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) y cambiar el nombre de la carpeta VOCdevkit/VOC2012/SegmentationClass a VOCdevkit/VOC2012/SegmentationClassAug${NC}"
 
 #No podía instalar tensorflow=1.15.0, actualice pip, instale pip3, corrí anaconda por primera vez, borre la carpeta con el virtualenvironment, etc...y al final funciono no se exactamente como se arregló. El error era ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output. stackoverflow
