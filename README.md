@@ -159,7 +159,7 @@ The post-processing step with CRF is currently being implemented [here](https://
 
 Descargar el kit original de VOC2012 desde su sitio web oficial: (http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html):
 
-Train (1464 images) y Validation (1449 imagenes): http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar (El link anterior se encuentra en este sitio: http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html) (descomprimir en la carpeta: tensorflow-deeplab-resnet/ y luego mover la carpeta VOCdevkit al directorio principal)(La estructura de archivos es VOCtrainval_11-May-2012/VOCdevkit/VOC2012/Annotations-ImageSets-JPEGImages-SegmentationClass-SegmentationObject)(La estructura de este repositorio es VOCdevkit/2012/Annotations-CSV_Annotations-ImageSets-JPEGImages-SegmentationClass-SegmentationObject)
+Train (1464 images) y Validation (1449 imagenes): http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar (El link anterior se encuentra en este sitio: http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html) (descomprimir en la carpeta: tensorflow-deeplab-resnet/ y listo)(La estructura de archivos es VOCdevkit/VOC2012/Annotations-ImageSets-JPEGImages-SegmentationClass-SegmentationObject)(La estructura de este repositorio es VOCdevkit/2012/Annotations-CSV_Annotations-ImageSets-JPEGImages-SegmentationClass-SegmentationObject)
 
 Test (1456 images)(1.8GB): http://host.robots.ox.ac.uk:8080/eval/downloads/VOC2012test.tar (El link anterior se encuentra en este sitio: http://host.robots.ox.ac.uk:8080/, el cual se encuentra en este sitio http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html)
 
