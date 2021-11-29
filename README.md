@@ -181,7 +181,11 @@ Para usar CRF, correr:
 python inference.py personas.jpg ./deeplab_resnet.ckpt
 ```
 Cambios que hay que hacer al original:
-DATA_DIRECTORY = '/home/VOCdevkit' a DATA_DIRECTORY = './VOCdevkit/VOC2012/'
+1.- DATA_DIRECTORY = '/home/VOCdevkit' a DATA_DIRECTORY = './VOCdevkit/VOC2012/'
+2.- Bajar checkpoints
+3.- Bajar VOCdevkit
+4.- Bajar SegmentationClassAug
+
 
 ### Otros datos
 Se usó en python de anaconda (no sé si será relevante)
